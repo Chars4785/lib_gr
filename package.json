@@ -1,0 +1,22 @@
+{
+  "name": "lib_gr",
+  "version": "1.0.0",
+  "description": "for lib growing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chars4785/lib_gr.git"
+  },
+  "keywords": [
+    "lib"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chars4785/lib_gr/issues"
+  },
+  "homepage": "https://github.com/Chars4785/lib_gr#readme"
+}
