@@ -1,33 +1,7 @@
-const a = [1,23,3]
+// const add = require('./src/calculator');
+// @babel/preset-env 설피로 ES6 문법 사용 가능
+import add from './src/calculator';
 
-// console.log(
-//     a.flatMap( (current,index,array) => {
-//         console.log(current,index,array)
-//     })
-// )
-
-class Sample {
-    constructor() {
-      this.list = [1, 2, 3];
-    }
-    mapList() {
-      this.list.map(function(x) {
-        console.log(this.list); 
-      },this);
-    }
-  }
-  const obj = new Sample();
-const b = obj.mapList();    // `this` is undefined
-
-class Sample {
-    constructor() {
-      this.list = [1, 2, 3];
-    }
-    mapList() {
-      this.list.map(function(x) {
-        console.log(this.list); 
-      });
-    }
-  }
-  const obj = new Sample();
-const b = obj.mapList();    // `this` is undefined
+it("add test",() => {
+  expect(add(3,5)).toBe(8)
+})
